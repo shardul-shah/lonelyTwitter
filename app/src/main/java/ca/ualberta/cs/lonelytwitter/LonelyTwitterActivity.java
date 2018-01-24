@@ -58,9 +58,24 @@ public class LonelyTwitterActivity extends Activity {
 				adapter.notifyDataSetChanged();
 
 				saveInFile();
+
+
 			}
 		});
+
+		Button clearButton = (Button) findViewById(R.id.clear);
+
+		clearButton.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				adapter.clear();
+				saveInFile();
+		
+
+			}
+
+		});
 	}
+
 
 	@Override
 	protected void onStart() {
