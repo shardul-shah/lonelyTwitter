@@ -1,3 +1,16 @@
+
+
+/**
+ * Important Tweet
+ * Version 1.0
+ * 01/30/2018
+ * Copyright © 2018 Team K. CMPUT301, University of Alberta - All Rights Reserved.
+ * You may use distribute or modify this code under terms and conditions of the code of Student Behaviour.
+ * at University of Alberta.
+ * You can find a copy of the license in this project. Otherwise please contact contact@abc.ca* @param message
+ * @date: Jan 30, 2018
+ */
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -25,6 +38,7 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
 
 public class LonelyTwitterActivity extends Activity {
 
